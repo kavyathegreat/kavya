@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya fitness club</title>
+    
+</head>
+<link rel="stylesheet" href="project/style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('bg3.jpg');
+        
+    }
+    *{
+        color: blanchedalmond;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    .left{
+        display:inline-block;
+      color: white;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        
+    }
+    .mid{
+        display: block;
+        margin:  20px 460px;
+        width: 50%;
+        cursor: pointer;
+        font-size: small;
+       color: white !important; 
+       
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+   
+       
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        margin: 5px;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .navbar li a{
+        text-decoration: none;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration:underline;
+        color:rgb(247, 208, 9);
+    }
+    img{
+        opacity: 0.5;
+        background-color:rgb(7, 15, 30) ;
+        border-radius: 60px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    img:hover{
+        opacity: 1.0;
+        border: 4px solid burlywood;
+        border-radius: 60px;
+    }
+    .right btn{
+        color: black !important;
+        background-color: rgb(155, 165, 184);
+    }
+    .btn{
+        margin: 0px 9px;
+        color: white;
+         font-family:cursive;
+        background-color: black;
+        border: 2px solid burlywood;
+         border-radius: 5px;
+    }
+    .btn hover{
+        cursor: pointer;
+    }
+    .container{
+        margin: 61px 22px;
+        padding: 2px 6px;
+        width: 30%;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 250px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 7px
+    }
+    #no{
+        font-size: medium;
+        text-align: center;
+        padding-left: 3px;
+        margin: 4px auto;
+        display: block;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="logo.jpg" alt="nah" height="50">
+           <div>Kavya Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Bhavnagar</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your gender">
+            </div>
+            <button class="btn" id="no">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+</html>
